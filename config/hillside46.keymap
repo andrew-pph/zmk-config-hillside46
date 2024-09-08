@@ -18,9 +18,9 @@
 #define ADJ_L    5
 
 #define Undo   LC(Z)
-#define Cut    LC(X)
-#define Copy   LC(C)
-#define Paste  LC(V)
+#define Cut    LS(DEL)
+#define Copy   LC(INS)
+#define Paste  LS(INS)
 #define Redo   LC(Y)
 
 
