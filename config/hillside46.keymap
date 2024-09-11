@@ -34,13 +34,13 @@
  * | `     |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   | BKSPC |
  * | TAB   |   A   |   S   |   D   |   F   |   G   |-----------------------------------|   H   |   J   |   K   |   L   |   ;   | ENTER |
  * | ALT   |   Z   |   X   |   C   |   V   |   B   |  ESC  |-------------------|  CAPS |   N   |   M   |   ,   |   .   |   /   |   '   |
- *                                 |  GUI  |  CTRL |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |
+ *                                 |  GUI  |  CTRL |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  Nav  |
  */
                         bindings = <
 &kp  GRAVE    &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER  
 &kp  LALT     &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ESC                                           &caps_word    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
-                                                        &kp  LGUI     &kp  LCTRL    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  RALT     &kp  RGUI
+                                                        &kp  LGUI     &kp  LCTRL    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  RALT     &mo  NAV_L
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -52,13 +52,13 @@
  * | `     |   '   |   ,   |   .   |   P   |   Y   |-----------------------------------|   F   |   G   |   C   |   R   |   L   | BKSPC |
  * | TAB   |   A   |   O   |   E   |   U   |   I   |-----------------------------------|   D   |   H   |   T   |   N   |   S   | ENTER |
  * | ALT   |   ;   |   Q   |   J   |   K   |   X   |  ESC  |-------------------| CAPS  |   B   |   M   |   W   |   V   |   Z   |   /   |
- *                                 |  GUI  |  CTRL |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |
+ *                                 |  GUI  |  CTRL |SK SHFT|  Nav  |---|  Sym  | SPACE |  Nav  |  GUI  |
  */
                         bindings = <
 &kp  GRAVE    &kp  SQT      &kp  COMMA    &kp  DOT      &kp  P        &kp  Y                                                                         &kp  F        &kp  G        &kp  C        &kp  R        &kp  L        &kp  BSPC
 &kp  TAB      &kp  A        &kp  O        &kp  E        &kp  U        &kp  I                                                                         &kp  D        &kp  H        &kp  T        &kp  N        &kp  S        &kp  ENTER
 &kp  LALT     &kp  SEMI     &kp  Q        &kp  J        &kp  K        &kp  X        &kp  ESC                                           &caps_word    &kp  B        &kp  M        &kp  W        &kp  V        &kp  Z        &kp  SLASH
-                                                        &kp  LGUI     &kp  LCTRL    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  RALT     &kp  RGUI
+                                                        &kp  LGUI     &kp  LCTRL    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  RALT     &mo  NAV_L
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -70,13 +70,13 @@
  * | `     |   Q   |   W   |   F   |   P   |   B   |-----------------------------------|   J   |   L   |   U   |   Y   |   ;   | BKSPC |
  * | TAB   |   A   |   R   |   S   |   T   |   G   |-----------------------------------|   M   |   N   |   E   |   I   |   O   | ENTER |
  * | ALT   |   Z   |   X   |   C   |   D   |   V   |  ESC  |-------------------| CAPS  |   K   |   H   |   ,   |   .   |   /   |   '   |
- *                                 |  GUI  |  CTRL |SK SHFT|  Nav  |---|  Sym  | SPACE |  ALT  |  GUI  |
+ *                                 |  GUI  |  CTRL |SK SHFT|  Nav  |---|  Sym  | SPACE |  Nav  |  GUI  |
  */
                         bindings = <
 &kp  GRAVE    &kp  Q        &kp  W        &kp  F        &kp  P        &kp  B                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  SEMI     &kp  BSPC
 &kp  TAB      &kp  A        &kp  R        &kp  S        &kp  T        &kp  G                                                                         &kp  M        &kp  N        &kp  E        &kp  I        &kp  O        &kp  ENTER
 &kp  LALT     &kp  Z        &kp  X        &kp  C        &kp  D        &kp  V        &kp   ESC                                          &caps_word    &kp  K        &kp  H        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
-                                                        &kp  LGUI     &kp  LCTRL    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  RALT     &kp  RGUI
+                                                        &kp  LGUI     &kp  LCTRL    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  SPACE    &kp  RALT     &mo  NAV_L
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
