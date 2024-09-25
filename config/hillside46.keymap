@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 /* Mouse movement PR#2027 */
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 
 #define QWERTY_L 0
