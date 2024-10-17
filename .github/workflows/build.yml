@@ -2,5 +2,5 @@ on: [push, pull_request,workflow_dispatch]
 
 jobs:
   build:
-    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@branch:feat/pointers-move-scroll
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@feat/pointers-move-scroll
 #@core/zephyr-3.5-update
