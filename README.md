@@ -1,5 +1,7 @@
 # Hillside ZMK firmware
 
+This firmware adds to Hillside 46 standalone radio trackball part.
+
 ![hillside](https://imgur.com/emWDXiT.png)
 [![Build](https://github.com/mmccoyd/zmk-config/actions/workflows/build.yml/badge.svg)](https://github.com/mmccoyd/zmk-config/actions/workflows/build.yml)
 
