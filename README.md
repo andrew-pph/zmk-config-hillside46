@@ -8,13 +8,24 @@ This firmware adds to Hillside 46 standalone radio trackball part.
 This is the [ZMK](https://zmk.dev/docs) firmware
  for the [Hillside](https://github.com/mmccoyd/hillside) family of split ergonomic keyboards.
 
-It contains keymap definition files for three boards in [./config](./config):
+Contains only one board
+ - Hillside 46 with 3x6+5 keys + 3button trackball
 
- - Hillside 52 with 3x6+3+5 keys
- - Hillside 48 with 3x6+1+5 keys
- - Hillside 46 with 3x6+5 keys
+trackball connections mapping for nice! nano v2
 
-Pushing changes will build all the keyboards. You need to be signed in to a GitHub account to push changes and build the firmware. To not waste build time, comment out the keyboards in [./build.yaml](./build.yaml) that you do not have.
+ * connections to breakout board https://github.com/siderakb/pmw3610-pcb
+ * 115 - motion
+ * 002 - nCS (sel)
+ * 029 - sclk 
+ * 031 - sdio (MOSI/MISO)
+ * vcc - vcc
+ * gnd - gnd
+ *
+ * Buttons:
+ * 008 to gnd - LMB
+ * 017 to gnd - MMB
+ * 020 to gnd - RMB
+
 
 To build the firmware:
 
