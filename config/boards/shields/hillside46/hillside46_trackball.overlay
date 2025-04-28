@@ -79,6 +79,8 @@
            thus, the sensor would be a `wakeup-source` */
         /*   optional features   */
     };
+};
+
 / {
   trackball_listener {
     compatible = "zmk,input-listener";
