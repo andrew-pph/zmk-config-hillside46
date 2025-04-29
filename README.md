@@ -1,4 +1,5 @@
 # Hillside ZMK firmware
+with mouse pointer
 
 ![hillside](https://imgur.com/emWDXiT.png)
 [![Build](https://github.com/mmccoyd/zmk-config/actions/workflows/build.yml/badge.svg)](https://github.com/mmccoyd/zmk-config/actions/workflows/build.yml)
