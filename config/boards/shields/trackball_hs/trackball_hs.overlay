@@ -78,8 +78,11 @@
     };
 };
 
+#include <input/processors.dtsi>
+
 / {
   trackball_listener {
+    input-processors = <&zip_x_scaler 2>;
     compatible = "zmk,input-listener";
     device = <&trackball>;
   };
