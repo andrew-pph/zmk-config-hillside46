@@ -6,7 +6,7 @@ if SHIELD_TRACKBALL_HS
 config ZMK_KEYBOARD_NAME
     default "Trackball-hs"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-    default y
+#config ZMK_SPLIT_BLE_ROLE_CENTRAL
+#    default y
 
 endif
