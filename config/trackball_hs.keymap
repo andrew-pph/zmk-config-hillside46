@@ -27,6 +27,7 @@
     macros {
         bt_sel_cl: bt_sel_cl {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&bt BT_SEL 0>
                 , <&bt BT_CLR>
