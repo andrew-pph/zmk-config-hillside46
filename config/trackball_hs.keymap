@@ -50,7 +50,7 @@
 				&mkp MB1        &mkp MB2
                         >;
                 };
-                default_layer {
+                bluetooth_layer {
 /* BlueTooth setup layer
  * -----------------
  * |       |   MMB   | 
