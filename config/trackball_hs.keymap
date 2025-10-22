@@ -21,7 +21,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <500>;
-            bindings = <&mkp MB3>, <&to MOUSE_L>, <&to BT_L>, <&out OUT_USB>;
+            bindings = <&mkp MB3>, <&to MOUSE_L>, <&to BT_L>;
         };
     };
         keymap {
@@ -58,7 +58,7 @@
  */
                         bindings = <
 						&mid
-				&bt BT_CLR      &out  OUT_BLE
+				&bt BT_CLR      &out  OUT_TOG
                         >;
                 };
         };
