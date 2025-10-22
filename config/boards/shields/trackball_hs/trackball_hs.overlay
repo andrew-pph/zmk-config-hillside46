@@ -78,12 +78,13 @@
     };
 };
 
+#include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
 / {
   trackball_listener {
-    input-processors = <&zip_x_scaler 2>;
     compatible = "zmk,input-listener";
     device = <&trackball>;
+    input-processors = <&zip_xy_scaler 2 1>;
   };
 };
