@@ -78,19 +78,13 @@
     };
 };
 
-<<<<<<< HEAD
-=======
+#include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
->>>>>>> parent of cce6fbc (xscale fix)
 
 / {
   trackball_listener {
-    input-processors = <&zip_x_scaler 2>;
     compatible = "zmk,input-listener";
     device = <&trackball>;
-<<<<<<< HEAD
     input-processors = <&zip_x_scaler 2>;
-=======
->>>>>>> parent of cce6fbc (xscale fix)
   };
 };
