@@ -18,6 +18,8 @@ include:
 #   Comment out below if you do not have this board, to save build time
   - board: nice_nano_v2
     shield: trackball_hs
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+    artifact-name: trackball_hs_with_logging
 
 # Hillside 48
 #   Comment out below if you do not have this board, to save build time
