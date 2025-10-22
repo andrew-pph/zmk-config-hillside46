@@ -24,6 +24,15 @@
             bindings = <&mkp MB3>, <&to MOUSE_L>, <&to BT_L>;
         };
     };
+    macros {
+        bt_sel_cl: bt_sel_cl {
+            compatible = "zmk,behavior-macro";
+            bindings
+                = <&bt BT_SEL 0>
+                , <&bt BT_CLR>
+		;
+        };
+    };
         keymap {
                 compatible = "zmk,keymap";
 
@@ -58,7 +67,7 @@
  */
                         bindings = <
 						&mid
-				&bt BT_CLR      &out  OUT_TOG
+				&bt_sel_cl      &out  OUT_TOG
                         >;
                 };
         };
