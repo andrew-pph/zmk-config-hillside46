@@ -17,11 +17,7 @@
  * 020 to gnd - RMB
  */
 
-#include "hillside46.dtsi" 
-
-&default_transform {
-    col-offset = <12>;
-};
+#include "trackball_hs.dtsi" 
 
 &kscan0 {
         compatible = "zmk,kscan-gpio-direct";

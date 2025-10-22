@@ -1,0 +1,5 @@
+# Copyright (c) 2021-2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_TRACKBALL_HS
+    def_bool $(shields_list_contains,trackball_hs)
