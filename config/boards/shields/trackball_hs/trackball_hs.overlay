@@ -67,8 +67,8 @@
         cpi = <800>;
 		invert-x;
         evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
+        zephyr,axis-x = <INPUT_REL_X>;
+        zephyr,axis-y = <INPUT_REL_Y>;
 
         force-awake;
         /* keep the sensor awake while ZMK activity state is ACTIVE,
