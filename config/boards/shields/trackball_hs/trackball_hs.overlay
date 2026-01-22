@@ -64,7 +64,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         motion-gpios = <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        res_cpi = <800>;
+        res-cpi = <800>;
 		invert-x;
         evt-type = <INPUT_EV_REL>;
         zephyr,axis-x = <INPUT_REL_X>;
