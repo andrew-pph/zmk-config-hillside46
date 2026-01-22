@@ -16,11 +16,11 @@ include:
 
 # Hillside 46
 #   Comment out below if you do not have this board, to save build time
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: hillside46_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: hillside46_right
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
 
 # Hillside 48
