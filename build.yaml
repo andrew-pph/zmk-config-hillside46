@@ -2,8 +2,7 @@
 ---
 include:
 
-# Hillside 46
-#   Comment out below if you do not have this board, to save build time
+# Trackball
   - board: nice_nano
     shield: trackball_hs
     snippet: zmk-usb-logging
